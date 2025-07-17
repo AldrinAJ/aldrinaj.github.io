@@ -1,11 +1,11 @@
 ---
-title: Cloud Computing Master Program - Linux 1.0
+title: DevSecOps Master Program - Linux 1.0
 date: 2025-07-01 12:50 +0200
 categories: [Cloud computing, AWS, Linux, Network]
 tags: [Linux, Cloud computing]
 ---
 
-# Linux Syllabus
+# DevSecOps Master Program - Linux 1.0
 
 ## 1. Automating Programs
 - **Run Levels**
