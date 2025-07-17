@@ -1,11 +1,11 @@
 ---
-title: Cloud Computing Master Program - AWS 1.1
+title: DevSecOps Master Program - AWS 1.1
 date: 2025-07-02 12:50 +0200
 categories: [Cloud computing, AWS, Linux, Network]
 tags: [Linux, Cloud computing, AWS, DevOps, DevSecOps]
 ---
 
-# Cloud Computing Master Program - AWS 1.1 
+# DevSecOps Master Program - AWS 1.1 
 
 ## 1. Cloud Basics
 **Learning Objectives:**
