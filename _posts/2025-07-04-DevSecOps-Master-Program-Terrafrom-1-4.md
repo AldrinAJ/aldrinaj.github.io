@@ -7,101 +7,68 @@ tags: [Linux, Cloud computing, Terraform, DevOps]
 
 # DevSecOps Master Program - Terraform 1.4
 
-## Introduction to Terraform
-- Introduction to terraform
-- Infrastructure Automation
-- Install Terraform
-- Providers
+# Terraform Training Syllabus
+
+## 1. Introduction to Terraform
+- Overview of Terraform architecture
+- Obtaining and installing Terraform
+- Terraform CLI
+- Infrastructure lifecycle
+
+## 2. Language Components
 - Resources
-- Basic Syntax
+- Terraform Providers:
+  - AWS
+  - Microsoft Azure
+  - Google Cloud
+  - On-premise
+- Modules
+- Data providers
+- Patterns for structuring projects
 
----
+## 3. Infrastructure as Code
+- Abstracting services and resources
+- Planning your architecture
+- Creating Configuration Files
+- Setting up a simple two-tier AWS architecture
+- Using Packer to pre-configure Amazon Machine Images (AMIs)
+- Using Consul for Service Discovery
+- Terminating infrastructure with Destroy
 
-## Getting started with Terraform
-- Terraform Plan, show, Apply, Destroy
-- Exploring Terraform Registry
-- Interpolation
-- Tainting and Updating Resources
-- Terraform Console and Output
-- Terraform Variables
-- Breaking Out Our Variables and Outputs
+## 4. State Management
+- Mapping real world resources to configurations
+- Recording metadata
+- Creating infrastructure plans
+- Inspecting and modifying state
 
----
+## 5. Environment Variables
+- Dealing with Parameters
+- Key variables:
+  - TF_LOG
+  - TF_VAR_name
+  - (and others)
 
-## Terraform Modules
-- Introduction to Modules
-- Module repositories
-- First Basic Module
-- The Module codes
-- Main Terraform Code
-- Using git repositories to save modules
+## 6. Managing Resources
+- Implicit and Explicit Dependencies
+- Non-dependant Resources
+- Iterating on Resources
 
----
+## 7. Terraform & GitOps
+- Git as the source of truth
+- Using Terraform to describe deployment
+- Deploying environments with CI pipelines
 
-## Terraform: Writing in a more organized way
-- Maps and Lookups
-- Terraform Workspaces
-- Breaking Out Our Variable Definitions
-- Null Resources and Local-Exec
-- Terraform Console
+## 8. Terraform Test Automation
+- Terratest
+- Unit Testing Terraform Modules
 
----
+## 9. Terraform Security
+- Securing your Terraform Pipeline
+- System Accounts & Permissions
+- Terraform Backend configuration
+- Handling Environments separately
 
-## Terraform with AWS
-- Setting up the system for AWS
-- AWS Storage: The S3 Bucket and Random ID
-- AWS Storage: The Root Module
-- AWS Compute: AMI Data, Key Pair, and the File Function
-- AWS Compute: The EC2 Instance
-- AWS Compute: User Data and Template Files
-- AWS Compute: The Root Module
-- AWS Networking: VPC, IGW, and Route Tables
-- AWS Networking: Subnets, Security, and the Count Attribute
-- AWS Networking: The Root Module
-
----
-
-## Terraform Advanced Concepts
-- Remote state
-- Data Sources
-- Templates
-- Conditionals
-- Built-in Functions
-- Working with state files
-- Outputs, count and Join Function
-
----
-
-## Terraform Integration
-- Adding S3 backend
-- Integration with Git
-- Packer introduction
-- Terraform with Packer
-- Terraform with Jenkins
-- Terraform Formatting and Remote State
-- Terraform RandomID and S3 Buckets
-
----
-
-## Terraform Troubleshooting and Testing
-- Terraform Plan revisited
-- Debugging the script
-- Terraform Testing
-
----
-
-## Extending Terraform
-- Terraform with Azure cloud
-- Terraform with Google Cloud
-- Terraform Templates
-- Terraform plugins
-- Integrating Go Plugins
-
----
-
-## Terraform Best Practices
-- Best practices in writing terraform scripts
-- Terraform Workflow
-- Terraform projects
-- Other Hashicorp tools
-- New features of Terraform
+## 10. Maintenance and Troubleshooting
+- Checking OCI service status
+- Verbose Logging
+- Error messages and resolution
